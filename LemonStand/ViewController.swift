@@ -29,9 +29,17 @@ class ViewController: UIViewController {
     var lemonsToMix = 0
     var iceCubesToMix = 0
     
+    var weatherArray: [[Int]] = [[-9,-2,-5,-3], [3,7,1,0], [27,22,19,25]]
+    var weatherToday: [Int] = [0,0,0,0]
+    
+    var weatherImageView = UIImageView(frame: CGRectMake(20, 50, 50, 50))
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
+        
+        self.view.addSubview(weatherImageView)
+        generateWeather()
         
         updateMainView()
     }
@@ -136,7 +144,9 @@ class ViewController: UIViewController {
     
     
     @IBAction func starDayButtonPressed(sender: AnyObject) {
-        let customers = Int(arc4random_uniform(UInt32(11)))
+        let average = findAverage(weatherToday)
+        
+        let customers = Int(arc4random_uniform(UInt32(average)))
         let lemonadeRation = Float(lemonsToMix) / Float(iceCubesToMix)
         
         for x in 0...customers {
@@ -151,6 +161,15 @@ class ViewController: UIViewController {
                 supply.money++
             }
         }
+        
+        lemonsToPurchase = 0
+        iceCubesToPurchase = 0
+        lemonsToMix = 0
+        iceCubesToMix = 0
+        
+        generateWeather()
+        
+        updateMainView()
     }
     
     func updateMainView() {
@@ -163,6 +182,28 @@ class ViewController: UIViewController {
         
         lemonMixCount.text = "\(lemonsToMix)"
         iceMixCount.text = "\(iceCubesToMix)"
+    }
+    
+    func generateWeather() {
+        let index = Int(arc4random_uniform(UInt32(weatherArray.count)))
+        weatherToday = weatherArray[index]
+        
+        switch index {
+        case 0: weatherImageView.image = UIImage(named: "Cold")
+        case 1: weatherImageView.image = UIImage(named: "Mild")
+        case 2: weatherImageView.image = UIImage(named: "Warm")
+        default: weatherImageView.image = UIImage(named: "Mild")
+        }
+    }
+    
+    func findAverage(cdata: [Int]) -> Int {
+        var average: Double = 0
+        for item in cdata {
+            average += Double(item)
+        }
+        average = ceil(average / Double(cdata.count))
+        
+        return Int(average)
     }
     
     //Helpers
