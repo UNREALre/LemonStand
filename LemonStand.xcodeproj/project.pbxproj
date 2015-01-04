@@ -1,0 +1,420 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		50D8F85A1A596928004F92B2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50D8F8591A596928004F92B2 /* AppDelegate.swift */; };
+		50D8F85C1A596928004F92B2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50D8F85B1A596928004F92B2 /* ViewController.swift */; };
+		50D8F85F1A596928004F92B2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 50D8F85D1A596928004F92B2 /* Main.storyboard */; };
+		50D8F8611A596928004F92B2 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 50D8F8601A596928004F92B2 /* Images.xcassets */; };
+		50D8F8641A596928004F92B2 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 50D8F8621A596928004F92B2 /* LaunchScreen.xib */; };
+		50D8F8701A596928004F92B2 /* LemonStandTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50D8F86F1A596928004F92B2 /* LemonStandTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		50D8F86A1A596928004F92B2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 50D8F84C1A596928004F92B2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 50D8F8531A596928004F92B2;
+			remoteInfo = LemonStand;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		50D8F8541A596928004F92B2 /* LemonStand.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LemonStand.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		50D8F8581A596928004F92B2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		50D8F8591A596928004F92B2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		50D8F85B1A596928004F92B2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		50D8F85E1A596928004F92B2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		50D8F8601A596928004F92B2 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		50D8F8631A596928004F92B2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		50D8F8691A596928004F92B2 /* LemonStandTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LemonStandTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		50D8F86E1A596928004F92B2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		50D8F86F1A596928004F92B2 /* LemonStandTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LemonStandTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		50D8F8511A596928004F92B2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		50D8F8661A596928004F92B2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		50D8F84B1A596928004F92B2 = {
+			isa = PBXGroup;
+			children = (
+				50D8F8561A596928004F92B2 /* LemonStand */,
+				50D8F86C1A596928004F92B2 /* LemonStandTests */,
+				50D8F8551A596928004F92B2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		50D8F8551A596928004F92B2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				50D8F8541A596928004F92B2 /* LemonStand.app */,
+				50D8F8691A596928004F92B2 /* LemonStandTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		50D8F8561A596928004F92B2 /* LemonStand */ = {
+			isa = PBXGroup;
+			children = (
+				50D8F8591A596928004F92B2 /* AppDelegate.swift */,
+				50D8F85B1A596928004F92B2 /* ViewController.swift */,
+				50D8F85D1A596928004F92B2 /* Main.storyboard */,
+				50D8F8601A596928004F92B2 /* Images.xcassets */,
+				50D8F8621A596928004F92B2 /* LaunchScreen.xib */,
+				50D8F8571A596928004F92B2 /* Supporting Files */,
+			);
+			path = LemonStand;
+			sourceTree = "<group>";
+		};
+		50D8F8571A596928004F92B2 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				50D8F8581A596928004F92B2 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		50D8F86C1A596928004F92B2 /* LemonStandTests */ = {
+			isa = PBXGroup;
+			children = (
+				50D8F86F1A596928004F92B2 /* LemonStandTests.swift */,
+				50D8F86D1A596928004F92B2 /* Supporting Files */,
+			);
+			path = LemonStandTests;
+			sourceTree = "<group>";
+		};
+		50D8F86D1A596928004F92B2 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				50D8F86E1A596928004F92B2 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		50D8F8531A596928004F92B2 /* LemonStand */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 50D8F8731A596928004F92B2 /* Build configuration list for PBXNativeTarget "LemonStand" */;
+			buildPhases = (
+				50D8F8501A596928004F92B2 /* Sources */,
+				50D8F8511A596928004F92B2 /* Frameworks */,
+				50D8F8521A596928004F92B2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LemonStand;
+			productName = LemonStand;
+			productReference = 50D8F8541A596928004F92B2 /* LemonStand.app */;
+			productType = "com.apple.product-type.application";
+		};
+		50D8F8681A596928004F92B2 /* LemonStandTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 50D8F8761A596928004F92B2 /* Build configuration list for PBXNativeTarget "LemonStandTests" */;
+			buildPhases = (
+				50D8F8651A596928004F92B2 /* Sources */,
+				50D8F8661A596928004F92B2 /* Frameworks */,
+				50D8F8671A596928004F92B2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				50D8F86B1A596928004F92B2 /* PBXTargetDependency */,
+			);
+			name = LemonStandTests;
+			productName = LemonStandTests;
+			productReference = 50D8F8691A596928004F92B2 /* LemonStandTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		50D8F84C1A596928004F92B2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = "Alex Podrabinovich";
+				TargetAttributes = {
+					50D8F8531A596928004F92B2 = {
+						CreatedOnToolsVersion = 6.1.1;
+					};
+					50D8F8681A596928004F92B2 = {
+						CreatedOnToolsVersion = 6.1.1;
+						TestTargetID = 50D8F8531A596928004F92B2;
+					};
+				};
+			};
+			buildConfigurationList = 50D8F84F1A596928004F92B2 /* Build configuration list for PBXProject "LemonStand" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 50D8F84B1A596928004F92B2;
+			productRefGroup = 50D8F8551A596928004F92B2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				50D8F8531A596928004F92B2 /* LemonStand */,
+				50D8F8681A596928004F92B2 /* LemonStandTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		50D8F8521A596928004F92B2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				50D8F85F1A596928004F92B2 /* Main.storyboard in Resources */,
+				50D8F8641A596928004F92B2 /* LaunchScreen.xib in Resources */,
+				50D8F8611A596928004F92B2 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		50D8F8671A596928004F92B2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		50D8F8501A596928004F92B2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				50D8F85C1A596928004F92B2 /* ViewController.swift in Sources */,
+				50D8F85A1A596928004F92B2 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		50D8F8651A596928004F92B2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				50D8F8701A596928004F92B2 /* LemonStandTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		50D8F86B1A596928004F92B2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 50D8F8531A596928004F92B2 /* LemonStand */;
+			targetProxy = 50D8F86A1A596928004F92B2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		50D8F85D1A596928004F92B2 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				50D8F85E1A596928004F92B2 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		50D8F8621A596928004F92B2 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				50D8F8631A596928004F92B2 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		50D8F8711A596928004F92B2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		50D8F8721A596928004F92B2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		50D8F8741A596928004F92B2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = LemonStand/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		50D8F8751A596928004F92B2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = LemonStand/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		50D8F8771A596928004F92B2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = LemonStandTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LemonStand.app/LemonStand";
+			};
+			name = Debug;
+		};
+		50D8F8781A596928004F92B2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = LemonStandTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LemonStand.app/LemonStand";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		50D8F84F1A596928004F92B2 /* Build configuration list for PBXProject "LemonStand" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				50D8F8711A596928004F92B2 /* Debug */,
+				50D8F8721A596928004F92B2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		50D8F8731A596928004F92B2 /* Build configuration list for PBXNativeTarget "LemonStand" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				50D8F8741A596928004F92B2 /* Debug */,
+				50D8F8751A596928004F92B2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		50D8F8761A596928004F92B2 /* Build configuration list for PBXNativeTarget "LemonStandTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				50D8F8771A596928004F92B2 /* Debug */,
+				50D8F8781A596928004F92B2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 50D8F84C1A596928004F92B2 /* Project object */;
+}
